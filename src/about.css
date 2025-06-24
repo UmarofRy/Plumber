@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-link {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  color: #222;
+  transition: all 0.3s linear;  
+}
+
+.header-link:hover {
+  color: #DD3142;
+}
+
+.header-link:focus {
+  font-weight: 600;
+  border-bottom: 2px solid #DD3142;
+}
+
+.header-btn{
+  background-color: #DD3142;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header-btn:hover {
+  color: black;
+  border: 1px dashed #DD3142;
+  background-color: #fff;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+hr{
+  background-color: #E5E5E5;
+  color: #E5E5E5;
+}
+
+
+
+
+.container {
+  max-width: 1220px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.column {
+  width: 48%;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 16px;
+  color: #d32f2f;
+  margin-bottom: 5px;
+}
+
+.service p {
+  font-size: 14px;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ProjectServise{
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px ;
+    height: 389px;
+    background-color: white;
+}
+
+
+
+.service-container {
+    margin-right: 100px;
+  width: 751px;
+  height: 389px;  
+  display: flex;
+  align-items: center;
+  background-color: #dd3344;
+  padding: 40px;
+  color: white;
+}
+
+.service-image{
+  
+  width: 630px;
+  height: 314px;
+}
+
+.service-image img{
+    left: 80px;
+    position: absolute;
+      width: 630px;
+    height: 314px;
+}
+
+.service-text {
+  margin-left: 140px;
+  max-width: 500px;
+}
+
+.service-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.service-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+
